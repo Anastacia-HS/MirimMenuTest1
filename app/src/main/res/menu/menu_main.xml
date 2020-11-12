@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_rotate"
+        android:title="그림회전"/>
+    <group
+        android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/item_sakura"
+        android:title="벚꽃"/>
+
+    <item
+        android:id="@+id/item_beer"
+        android:title="맥주"/>
+
+    <item
+        android:id="@+id/item_wave"
+        android:title="파도"/>
+
+    </group>
+</menu>
